@@ -25,14 +25,18 @@ a:hover {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6 {
   font-family: "Satisfy", sans-serif;
+  color:#fff;
 }
 
+h2 {
+  font-size:10px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1201,7 +1205,7 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background: url("../img/chefs-bg.jpg") center center no-repeat;
+  background: url("https://img.cosmeticsandtoiletries.com/files/base/allured/all/image/2017/01/ct.ElegantFeelFace850.png?auto=format%2Ccompress&q=70&w=700") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
