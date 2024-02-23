@@ -38,10 +38,16 @@
 </head>
 
 <body>
+
   <script>
   AOS.init();
 </script>
 
+
+<div class="loader-wrapper">
+    <div class="loader"></div>
+  
+  </div>
   <!-- ======= Top Bar topbar-transparent ======= -->
   <section id="topbar" class="d-flex align-items-center fixed-top ">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
@@ -847,6 +853,17 @@ We specialize in all the things healthy people want and need out of their health
     <div></div>
     <div></div>
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Simulate loading by hiding the loader and displaying the content after a delay
+      setTimeout(function () {
+        document.querySelector(".loader-wrapper").style.opacity = 0;
+        document.querySelector(".loader-wrapper").style.pointerEvents = "none";
+        document.querySelector(".content").style.display = "block";
+      }, 3000); // Adjust the delay as needed
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
