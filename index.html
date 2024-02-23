@@ -17,7 +17,7 @@
   <meta name="google-site-verification" content="trLSXPXf3f7uuGJvBurdo4QEaDTpN3G1bzhegPAHfqc" />
   <link href="assets/img/sk/das.png" rel="icon">
   <link href="assets/img/sk/das.png" rel="apple-touch-icon">
-
+ 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
@@ -221,7 +221,37 @@
   
 
    
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span id="closeBtn">&times;</span>
+        <div class="row g-0">
 
+          
+
+       
+
+          <div class="col-lg-6 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/ppop.jpg" style="width:100%;" class="gallery-lightbox">
+                <img src="assets/img/ppop.jpg" style="width: 350px;" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4">
+            <div class="container">
+      <p>Get Upto <b>$50</b> on all Referrals</p> 
+    
+      <a href="#book-a-table" class="book-a-table" style="font-size:12px; width:300px; color:#fff; border-radius:10px; padding:7px; background-color:#F1CEC5;">Get  Bonus</a>
+      
+
+
+            </div>
+          </div>
+
+        </div>
+    </div>
+</div>
 
 
     <!-- ======= Gallery Section ======= -->
@@ -340,17 +370,16 @@
     
      <!-- ======= Specials Section ======= -->
    <section id="specials" class="specials">
-      <div class="container">
+      <div class="container" data-aos="fade-up"
+      data-aos-duration="3000">
 
-        <div class="section-title" data-aos=""
-        data-aos-duration="3000">
+        <div class="section-title" >
           <h2>Skin Vogue Aesthetic</h2>
           <p>At skin vogue, you will only be seen by an Advanced Practice Provider that specializes in medical aesthetics and women’s health.</p>
         </div>
 
         <div class="row" >
-          <div class="col-lg-3" data-aos="fade-right"
-          data-aos-duration="3000">
+          <div class="col-lg-3" >
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Botox / Dysport</a>
@@ -857,6 +886,30 @@ We specialize in all the things healthy people want and need out of their health
     <div></div>
     <div></div>
   </div>
+
+
+  <script>
+    // Get the modal and close button
+    var modal = document.getElementById("myModal");
+    var closeBtn = document.getElementById("closeBtn");
+
+    // Open the modal when the page loads
+    window.onload = function () {
+        modal.style.display = "flex";
+    };
+
+    // When the user clicks on the close button or outside the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+
+    // Close the modal when the close button is clicked
+    closeBtn.onclick = function () {
+        modal.style.display = "none";
+    };
+</script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
