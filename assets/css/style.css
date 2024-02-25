@@ -2258,29 +2258,33 @@ footer .credits {
   100% { transform: rotate(360deg); }
 }
 
-.loader-wrapper p {
+
+
+.loader-wrapper p 
+{
   margin-top: 20px;
   font-size: 16px;
 }
 
 
-.modal {
+.modal 
+{
   width: 300px;
   height: 1300px;
   margin: 0;
   justify-content: center;
   align-items: center;
- 
   border-radius: 5px;
-  
-  
 }
-        .modal-content {
+
+.modal-content 
+{
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             border-radius: 5px;
-        }
+}
+
 
         #closeBtn {
             cursor: pointer;
@@ -2289,18 +2293,15 @@ footer .credits {
             right: 15px;
             font-size: 20px;
         }
+   
 
-
-
-
-
-
-        
 .sec-title {
 	margin-bottom: 50px;
 	padding-bottom: 15px;
 	position: relative;
 }
+
+
 .sec-title::after {
 	content: "";
 	position: absolute;
@@ -2310,6 +2311,8 @@ footer .credits {
 	height: 3px;
 	background: #000;
 }
+
+
 .sec-title h2 {
 	font-size: 20px;
 	font-family: "Montserrat", sans-serif;
@@ -2318,6 +2321,8 @@ footer .credits {
 	text-transform: uppercase;
 	color: var(--blue);
 }
+
+
 .sec-title p {
 	font-size: 18px;
 	line-height: 28px;
