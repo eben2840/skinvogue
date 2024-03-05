@@ -659,6 +659,37 @@ section {
 .about {
   background: #fff;
 }
+ 
+input[type='checkbox'].read-more-toggle {
+  display: none !important;
+}
+
+.inline-read-more-label {
+ display: flex;
+ flex-direction: column-reverse;
+ 
+}
+
+.inline-read-more > .inline-read-more-content {
+  display: none;
+}
+
+input[type='checkbox'].read-more-toggle:checked ~ .inline-read-more > .ellipses {
+  display: none;
+}
+
+input[type='checkbox'].read-more-toggle:checked ~ .inline-read-more > .inline-read-more-content {
+  display: inline;
+}
+
+/* 
+
+
+
+
+
+
+*/
 
 .about .content {
   padding: 0 80px;
